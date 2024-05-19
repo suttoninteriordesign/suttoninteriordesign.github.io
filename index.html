@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sutton Interior Designs</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="icon" href="favicon.png">
+        <script>
+            function nav_show() {
+                nav_table.classList.remove("nav_hidden")
+            }
+            function nav_hidden() {
+                nav_table.classList.add("nav_hidden")
+            }
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <body bgcolor="#000000">
+        <div id="nav_line"></div>
+        <div onmouseover="nav_show()" onclick="nav_show()" id="nav_button">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <table onmouseleave="nav_hidden()" class="nav_hidden" id="nav_table">
+                <tbody>
+                    <tr><td><a href="#">Home</td></tr>
+                    <tr><td><a href="#about_us">About Us</a></td></tr>
+                    <tr><td><a href="#our_team">Our Team</a></td></tr>
+                    <tr><td><a href="#services">Services</a></td></tr>
+                    <tr><td><a href="#contact_us">Contact Us</a></td></tr>
+                    <tr><td><a href="#insights">Insights</a></td></tr>
+                </tbody>
+            </table>
+        </nav>
+        <div id="article_container">
+            <div id="top_nav" onmouseover="nav_hidden()">
+                <a href="#"><img src="icon2.png" alt="Logo"></a>
+            </div>
+            <article onmouseover="nav_hidden()">
+                <header></header>
+                <img id="brand" src="brand.svg">
+                <img src="lobby.svg">
+                <img style="z-index: 12; position: absolute;" src="philosophy.svg">
+                <p style="text-align: center; max-width: 80%; margin: 90vw 10% 3% 10%;">We embrace the importance of our philosophy<br>"To design forward you must move forward; to be open to change you must create change"<br>because it encapsulates proactive innovation and adaptability.<br>By adopting this approach, we drive progress, we stay agile, relevant and we empower<br>ourselves to shape the future. It's a commitment to continuous evolution that ensures our<br>relevance and success in an ever-changing world.</p>
+                <img src="homefooter.svg">
+                <!---->
+                <h1 class="headers" style="margin-top: 10vw;"><b>ABOUT US</b></h1>
+                <span class="anchors" id="about_us" style="margin-top: 5vw;"></span>
+                <p style="margin-top: 30vw; font-size: 3vw; max-width: 70%; text-align: center;"><b>"Experience the Sutton Difference: Going Above and Beyond, Setting Us Apart"</b></p>
+                <p style="margin-top: 1.5%;">We are Interior Designers where creativity meets functionality, priding ourselves on being more than just interior designers; we're visionaries who fuse creativity with functionality.<br>With a wealth of experience in creative design, space planning, and project management, our seasoned team is dedicated to turning your vision into reality. Specializing in commercial design, but not limited to, we blend aesthetics with practicality to optimize your space for productivity and comfort.<br>Armed with extensive on-field product knowledge and a hands-on approach, we meticulously curate every detail to perfection, ensuring each project exceeds expectations, from colour consultation to adept problem-solving.<br>Entrust us to transform your space into a captivating masterpiece that not only inspires but also delights at every turn.</p>
+                <!---->
+                <h1 class="headers"><b>OUR TEAM</b></h1>
+                <span class="anchors" id="our_team"></span>
+                <img style="border-radius: 1vw; margin-top: 70vw; z-index: -1; position: absolute; width: 30vw; left: 5%;" src="ourteamheader2.svg">
+                <p style="max-width: 71.5%; margin-top: 83vw; margin-left: 30%; font-family: 'Josefin Sans', sans-serif; font-size: 4vw; letter-spacing: 0.245em; line-height: 1em; text-align: left;">KIRSTY SUTTON-SOUTHWICK</p>
+                <p style="max-width: 71.5%; margin-top: 2vw; margin-left: 30%; font-family: 'Josefin Sans', sans-serif; font-size: 1.8vw; letter-spacing: 0.6em; text-align: left;">DIRECTOR<br>INTERIOR DESIGNER</p>
+                <p style="margin-top: 15vw;">Allow me to introduce Kirsty, the creative force behind Sutton Interior Design.<br>As the founder, she brings a wealth of experience and expertise to the industry, with a focus on both commercial and high-end residential furniture.<br>Kirsty's proficiency extends to finishes, project management, soft-wiring, colour consultation, and space planning.<br>Proficient in AutoCAD and SketchUp, she brings ideas to life with precision and ingenuity. From site measurements to floorplans, Kirsty's attention to detail is unparalleled. A natural problem solver, she consistently exceeds expectations.<br>Renowned for her hands-on project management approach, Kirsty has cultivated strong relationships with exclusive clients, emphasizing trust and reliability in every interaction.</p>
+                <!---->
+                <h1 class="headers"><b>SERVICES</b></h1>
+                <span class="anchors" id="services"></span>
+                <p style="margin-top: 65vw; font-size: 3vw; max-width: 70%; text-align: left;"><b>"Tailored Design Solutions:<br>&nbsp;&nbsp;&nbsp;&nbsp;Where Your Vision Comes to Life"</b></p>
+                <p style="margin-top: 1.5%;">Our business offers a comprehensive range of design services tailored to meet the unique needs of each client.</p>
+                <p style="margin-top: 1.5%;">Our design packages are flexible and customizable, ensuring that you receive exactly what you need for your project, whether it's commercial or residential.<br>Depending on your preferences and the location of the site, we can conduct site visits or work off floorplans to accommodate your requirements.<br>Our design packages encompass a variety of elements, including space planning, 3D visuals, and detailed furniture floorplans.<br>Additionally, our FF&E schedules can be tailored to include furniture only, or they can encompass finishes, soft-wiring plans, and color consultation, among other features.<br>We also provide expert project management services to ensure that your project is completed seamlessly and efficiently.<br>Furthermore, our team offers styling services to add the finishing touches to your space.<br>Whether you require a fully customized package or individual services, there's no limit to what we can offer to bring your vision to life.<br>Contact us today to discuss your project needs and schedule a consultation!"</p>
+                <!---->
+                <h1 class="headers"><b>CONTACT<br>US</b></h1>
+                <span class="anchors" id="contact_us"></span>
+                <form id="contactform" method="post">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" class="inputs" placeholder="Your name..." required disabled>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" class="inputs" placeholder="example@gmail.com" required disabled>
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" class="inputs" placeholder="Enter message..." maxlength="800" required disabled></textarea>
+                    <input type="submit" id="send" value="SEND" onclick="alert('Temporarily Unavailable')">
+                </form>
+                <p style="margin-top: 10vw;">SUTTON INTERIOR DESIGN</p>
+                <p>BRISBANE, QLD</p>
+                <p>0412 334 534</p>
+                <p>k.sutton@suttoninteriordesign.com.au</p>
+                <!---->
+                <h1 class="headers"><b>INSIGHTS</b></h1>
+                <span class="anchors" id="insights"></span>
+                <div style="margin-top: 65vw;" class="insight_tabs">
+                    <img src="colourinsight.svg">
+                    <div>
+                        <h2>Why are colour consultations so important?</h2>
+                        <h3>05.05.24</h3>
+                        <p>Color picking may seem simple on the surface because it's a task people encounter daily in various contexts, from choosing clothing to selecting paint for walls. However, the complexity...</p>
+                        <a href="colour_consultations.html"><span>READ MORE</span></a>
+                    </div> 
+                </div>
+                <footer>
+                
+                </footer>
+            </article>
+        </div>
+    </body>
+</html>
