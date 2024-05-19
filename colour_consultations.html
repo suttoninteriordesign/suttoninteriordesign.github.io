@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sutton Interior Designs - Colour Consultations</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="icon" href="favicon.png">
+        <script>
+            function nav_show() {
+                nav_table.classList.remove("nav_hidden")
+            }
+            function nav_hidden() {
+                nav_table.classList.add("nav_hidden")
+            }
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <body bgcolor="#000000">
+        <div id="nav_line"></div>
+        <div onmouseover="nav_show()" onclick="nav_show()" id="nav_button">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <table onmouseleave="nav_hidden()" class="nav_hidden" id="nav_table">
+                <tbody>
+                    <tr><td><a href="index.html#">Home</td></tr>
+                    <tr><td><a href="index.html#about_us">About Us</a></td></tr>
+                    <tr><td><a href="index.html#our_team">Our Team</a></td></tr>
+                    <tr><td><a href="index.html#services">Services</a></td></tr>
+                    <tr><td><a href="index.html#contact_us">Contact Us</a></td></tr>
+                    <tr><td><a href="index.html#insights">Insights</a></td></tr>
+                </tbody>
+            </table>
+        </nav>
+        <div id="article_container">
+            <div id="top_nav" onmouseover="nav_hidden()">
+                <a href="index.html"><img src="icon2.png" alt="Logo"></a>
+            </div>
+            <article onmouseover="nav_hidden()">
+                <h1 class="headers" id="insights" style="margin-top: 0;"><b>INSIGHTS</b></h1>
+                <img src="cc1.svg" style="margin-top: 9.5vw; position: absolute; z-index: 12;">
+                <p style="margin-top: 35vw; font-size: 3vw; max-width: 70%; text-align: left;"><b>"WHY IS A COLOUR CONSULTATION SO IMPORTANT?"</b></p>
+                <p style="font-size: 1.8vw; font-weight: lighter;">05.05.24</p>
+                <p style="margin-top: 3vw;">Colour picking may seem simple on the surface because it's a task people encounter daily in various contexts, from choosing clothing to selecting paint for walls. However, the complexity lies in the nuances of colour theory and its application in interior design. Factors such as lighting conditions, the psychological impact of colours, coordination with existing elements, and the desired mood or atmosphere all come into play. What may appear as a straightforward choice can quickly become overwhelming when considering these factors. Additionally, individual perceptions of colour vary, making it challenging to find a universally appealing palette. Thus, while colour picking may seem simple, its intricacies require careful consideration and expertise to achieve the desired outcome in interior design.</p>
+                <p><br>A colour consultation is crucial in interior design for several reasons:<br><br></p>
+                <ol style="margin-left: 8%; font-size: 1.5vw; line-height: 150%; max-width: 88%;">
+                    <li><b>Aesthetic Appeal:</b> Colours have a significant impact on the overall look and feel of a space. A well-chosen colour scheme can enhance the aesthetics of a room, creating a harmonious and visually pleasing environment.</li>
+                    <li><b>Mood and Atmosphere:</b> Colours can evoke different emotions and set the mood of a room. For example, warm tones like reds and oranges can create a cosy and inviting atmosphere, while cool tones like blues and greens can promote calmness and relaxation.</li>
+                    <li><b>Space Perception:</b> The right colours can visually alter the perception of space. Lighter colours tend to make a room feel larger and more open, while darker colours can make a space feel more intimate and cosy.</li>
+                    <li><b>Coordination:</b> A colour consultation ensures that the chosen colour palette complements the other elements in the room, such as furniture, flooring, and accessories. This coordination is essential for achieving a cohesive and well-designed space.</li>
+                    <li><b>Personalization:</b> Colours are deeply personal, and a colour consultation allows clients to express their individual style and preferences. It ensures that the final design reflects their personality and taste.</li>
+                </ol>
+                <p><br>Overall, a colour consultation helps to create a harmonious, visually appealing, and personalized space that meets the needs and preferences of the client.<br></p>
+                <img src="cc2.svg" style="width: 80%; margin: 10%;">
+                <footer>
+                
+                </footer>
+            </article>
+        </div>
+    </body>
+</html>
